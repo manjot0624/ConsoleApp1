@@ -17,7 +17,7 @@ public class Program
         Dictionary<string, Dictionary<string, string>> orders = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(inputJson);
         Dictionary<string, Dictionary<string, string>> output = new Dictionary<string, Dictionary<string, string>>();
         
-        // Initialize the flights just example right now in JSON we have only 43 Destination 
+        // Initialize the flights just example right now in JSON we have only 3 Destination 
         List<FlightData> flights = new List<FlightData>();
         flights.Add(new FlightData("YYZ"));
         flights.Add(new FlightData("YYC"));
